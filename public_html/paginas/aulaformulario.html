@@ -1,0 +1,282 @@
+<html>
+	<head>
+	<title> Formulário</title>
+	<meta charset="utf-8" />
+	
+	<style>
+	   p {
+	   text-align: center;
+	   text-indent: 100px;
+	   }
+	   #centro{ 
+	   text-align:center;
+	   }
+	 </style>
+	 
+	<LINK REL="StyleSheet" HREF="../css/estilo.css"
+		  TYLE="text/css">
+		  
+		  <script src="../javascript/funcoes.js"> </script> 
+	
+	  </head>
+	<body background="../imagem/fundo5.png">
+	
+	<FONT SIZE="4" FACE="TAHOMA" COLOR="WHITE">
+
+ <div id="interface">
+	<hgroup>
+		<header id="cabecalho">
+		
+		<h1>Novak Djokovic</h1>
+	</hgroup>
+	<img id="icone"
+src="../imagem/djokovic.png">
+	<nav id="menu">
+<ul>
+	<li onmouseover= "mudaFoto('../imagem/home.png')"onmouseout="mudaFoto
+	('../imagem/djokovic.png')" >
+<a href="../index.html">Home </a></li>
+
+<li onmouseover= "mudaFoto
+	('../imagem/numero1.png') "onmouseout="mudaFoto
+	('../imagem/djokovic.png')">
+	<a href="pagina1.html"> O número 1 </a></li>
+	
+	<li onmouseover= "mudaFoto
+	('../imagem/titulos.png') "onmouseout="mudaFoto
+	('../imagem/djokovic.png')">
+	<a href="pagina2.html"> Títulos </a></li>
+
+<li onmouseover= "mudaFoto
+	('../imagem/treinamento.png') "onmouseout="mudaFoto
+	('../imagem/djokovic.png')">
+	<a href="pagina3.html"> Treino </a></li>
+	
+	<li onmouseover= "mudaFoto
+	('../imagem/multimidia.png') "onmouseout="mudaFoto
+	('../imagem/djokovic.png')">
+	<a href="pagina4.html"> Videos </a></li>
+ 
+	<li onmouseover= "mudaFoto
+	('../imagem/agradecimentos.png') "onmouseout="mudaFoto
+	('../imagem/djokovic.png')">
+	<a href="pagina5.html"> Agradecimentos </a></li>
+  
+  <li onmouseover= "mudaFoto
+	('../imagem/contato.png') "onmouseout="mudaFoto	('../imagem/djokovic.png')"> <a href="aulaformulario.html"> Formulário </a></li>
+</ul>
+</nav>
+COPYright 2019 - by Guilherme Pereira
+Facebook I Twitter<br><br>
+
+</div>
+           <form>
+		   
+		  <center> <big><h1> Cadastra - se</h1></big> </center>
+<center><fieldset><legend>Dados Pessoais</legend><br>
+
+<tr>
+   <td>
+<form name="input" action="html_form_action.asp" method="get">
+Nome do Usuário:<br><br>
+ Nome: <input type="text" name="firstname">
+ Sobrenome:
+<input type="text" name="lastname">
+</td>
+  </tr>
+  <br><br>
+
+<tr>
+   <td>
+    <label>CPF:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+   </td>
+  </tr><br><br>
+	
+	<tr>
+   <td>
+    <label for="rg">RG: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="rg" size="13" maxlength="13"> 
+   </td>
+  </tr><br><br>
+  
+  <tr>
+   <td>
+  Orgão Expeditor: <input type="text" name="firstname"><br><br>
+ Titulo Eleitor:
+<input type="text" name="lastname"><br><br>
+  
+	<input type="radio" name="sex" value="male"> Masculino
+    <br><br>
+    <input type="radio" name="sex" value="female"> Feminino
+	</td>
+  </tr>
+	<br><br>
+	
+	<tr>
+   <td>
+    <label>Data de Nascimento: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="dia" size="2" maxlength="2" value=""> 
+   <input type="text" name="mes" size="2" maxlength="2" value=""> 
+   <input type="text" name="ano" size="4" maxlength="4" value="">
+   </td>
+  </tr><br><br>
+ 
+ <tr>
+   <td>
+ Naturaliade: <input type="text" name="firstname"><br><br>
+ Nacionalidade:
+<input type="text" name="lastname">
+</td>
+  </tr>
+<br><br>
+  
+  <tr>
+   <td>
+  Escolaridade:
+<select name="escolaridade">
+     <option value="em"> Ensino Médio </option>
+     <option value="nt"> Nível Técnico </option>
+     <option value="ns"> Nível Superior </option>
+	</td>
+  </tr>
+
+</select>
+<br><br>
+
+<tr>
+   <td>
+ Nome do Pai: <input type="text" name="firstname"><br><br>
+ Nome da Mãe:
+<input type="text" name="lastname">
+</td>
+  </tr>
+<br><br>
+
+ </table>
+</fieldset></center><br><br>
+
+
+
+<center><fieldset>
+
+
+
+ <legend>Dados de Endereço</legend>
+ <table cellspacing="10">
+
+<FONT SIZE="4" FACE="TAHOMA" COLOR="WHITE">
+  <tr>
+   <td>
+    <label for="rua">Rua:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="rua">
+   </td>
+   <td>
+    <label for="numero">Numero:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="numero" size="4">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="bairro">Bairro: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="bairro">
+   </td>
+  </tr>
+  
+  <tr>
+   <td>
+    <label for="cep">CEP: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+   </td>
+  </tr>
+  
+  <tr>
+   <td>
+    <label for="cidade">Cidade: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cidade">
+   </td>
+  </tr>
+  
+  <tr>
+   <td>
+    <label for="estado">Estado:</label>
+   </td>
+   <td align="left">
+    <select name="estado"> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   </td>
+  </tr>
+  
+  <tr>
+   <td>
+    <label for="cidade">País: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cidade">
+   </td>
+  </tr>
+  
+ </table>
+</fieldset></center>
+<br />
+
+  </form>
+  <center><form>
+  
+  <p>Observações Adicionais:<textarea name="obs" cols="20" rows="5"></textarea></p>
+  
+	<p><input type="text" name="user">
+    <input type="submit" value="Enviar">
+
+	</form></center>
+	
+	<center><h3>Telefone: (63) 98424-4706<br>
+	 email: glimamarinho0@gmail.com</h3></center>
+	
+	
+   </body>
+
+</html>
