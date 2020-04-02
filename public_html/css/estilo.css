@@ -33,4 +33,19 @@ nav#menu h1{
 	display: none;
 }
 
+.conteudo{
+	display: table;
+}
+.texto{
+	display:table-cell;
+	float:left;
+	width: 980px;
+	margin-left:20px;
+	margin-top:-40px
+}
+.imagem{
+	display:table-cell;
+	float:left;
+}
+
 
