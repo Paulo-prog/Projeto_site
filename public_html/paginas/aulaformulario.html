@@ -1,6 +1,6 @@
 <html>
 	<head>
-	<title> Formulário</title>
+	<title> Pizzaria Dona Benta</title>
 	<meta charset="utf-8" />
 	
 	<style>
@@ -21,7 +21,7 @@
 	  </head>
 	<body background="../imagem/fundo5.png">
 	
-	<FONT SIZE="4" FACE="TAHOMA" COLOR="Black">
+	<FONT SIZE="4" FACE="TAHOMA" COLOR="White">
 	
 	<div id="interface">
 	<hgroup>
@@ -44,7 +44,7 @@ src="../imagem/pizzariadonabenta.png">
 	
   <li onmouseover= "mudaFoto
 	('../imagem/telefone.png') "onmouseout="mudaFoto	('../imagem/pizzariadonabenta.png')"> 
-	<a href="aulaformulario.html"> Formulário </a></li>
+	<a href="aulaformulario.html"> Contato </a></li>
 	
 </ul>
 </nav>
@@ -68,29 +68,8 @@ Nome do Usuário:<br><br>
   </tr>
   <br><br>
 
-<tr>
-   <td>
-    <label>CPF:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
-   </td>
-  </tr><br><br>
-	
-	<tr>
-   <td>
-    <label for="rg">RG: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="rg" size="13" maxlength="13"> 
-   </td>
-  </tr><br><br>
-  
   <tr>
    <td>
-  Orgão Expeditor: <input type="text" name="firstname"><br><br>
- Titulo Eleitor:
-<input type="text" name="lastname"><br><br>
   
 	<input type="radio" name="sex" value="male"> Masculino
     <br><br>
@@ -98,62 +77,10 @@ Nome do Usuário:<br><br>
 	</td>
   </tr>
 	<br><br>
-	
-	<tr>
-   <td>
-    <label>Data de Nascimento: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="dia" size="2" maxlength="2" value=""> 
-   <input type="text" name="mes" size="2" maxlength="2" value=""> 
-   <input type="text" name="ano" size="4" maxlength="4" value="">
-   </td>
-  </tr><br><br>
- 
- <tr>
-   <td>
- Naturaliade: <input type="text" name="firstname"><br><br>
- Nacionalidade:
-<input type="text" name="lastname">
-</td>
-  </tr>
-<br><br>
-  
-  <tr>
-   <td>
-  Escolaridade:
-<select name="escolaridade">
-     <option value="em"> Ensino Médio </option>
-     <option value="nt"> Nível Técnico </option>
-     <option value="ns"> Nível Superior </option>
-	</td>
-  </tr>
 
-</select>
+
 <br><br>
 
-<tr>
-   <td>
- Nome do Pai: <input type="text" name="firstname"><br><br>
- Nome da Mãe:
-<input type="text" name="lastname">
-</td>
-  </tr>
-<br><br>
-
- </table>
-</fieldset></center><br><br>
-
-
-
-<center><fieldset>
-
-
-
- <legend>Dados de Endereço</legend>
- <table cellspacing="10">
-
-<FONT SIZE="4" FACE="TAHOMA" COLOR="WHITE">
   <tr>
    <td>
     <label for="rua">Rua:</label>
@@ -167,7 +94,8 @@ Nome do Usuário:<br><br>
    <td align="left">
     <input type="text" name="numero" size="4">
    </td>
-  </tr>
+  </tr><br><br>
+  
   <tr>
    <td>
     <label for="bairro">Bairro: </label>
@@ -175,80 +103,27 @@ Nome do Usuário:<br><br>
    <td align="left">
     <input type="text" name="bairro">
    </td>
-  </tr>
+  </tr><br><br>
   
   <tr>
    <td>
-    <label for="cep">CEP: </label>
+    <label for="rg">Telefone: </label>
    </td>
    <td align="left">
-    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+    <input type="text" name="rg" size="13" maxlength="13"> 
    </td>
   </tr>
   
-  <tr>
-   <td>
-    <label for="cidade">Cidade: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="cidade">
-   </td>
-  </tr>
-  
-  <tr>
-   <td>
-    <label for="estado">Estado:</label>
-   </td>
-   <td align="left">
-    <select name="estado"> 
-    <option value="ac">Acre</option> 
-    <option value="al">Alagoas</option> 
-    <option value="am">Amazonas</option> 
-    <option value="ap">Amapá</option> 
-    <option value="ba">Bahia</option> 
-    <option value="ce">Ceará</option> 
-    <option value="df">Distrito Federal</option> 
-    <option value="es">Espírito Santo</option> 
-    <option value="go">Goiás</option> 
-    <option value="ma">Maranhão</option> 
-    <option value="mt">Mato Grosso</option> 
-    <option value="ms">Mato Grosso do Sul</option> 
-    <option value="mg">Minas Gerais</option> 
-    <option value="pa">Pará</option> 
-    <option value="pb">Paraíba</option> 
-    <option value="pr">Paraná</option> 
-    <option value="pe">Pernambuco</option> 
-    <option value="pi">Piauí</option> 
-    <option value="rj">Rio de Janeiro</option> 
-    <option value="rn">Rio Grande do Norte</option> 
-    <option value="ro">Rondônia</option> 
-    <option value="rs">Rio Grande do Sul</option> 
-    <option value="rr">Roraima</option> 
-    <option value="sc">Santa Catarina</option> 
-    <option value="se">Sergipe</option> 
-    <option value="sp">São Paulo</option> 
-    <option value="to">Tocantins</option> 
-   </select>
-   </td>
-  </tr>
-  
-  <tr>
-   <td>
-    <label for="cidade">País: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="cidade">
-   </td>
-  </tr>
+  </select>
   
  </table>
 </fieldset></center>
-<br />
+<br/>
 
   </form>
   <center><form>
   
-  <p>Observações Adicionais:<textarea name="obs" cols="20" rows="5"></textarea></p>
+  <p>Pedido Da pizza e forma de pagamento:<textarea name="obs" cols="20" rows="5"></textarea></p>
   
 	<p><input type="text" name="user">
     <input type="submit" value="Enviar">
